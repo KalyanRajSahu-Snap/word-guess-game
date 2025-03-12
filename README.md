@@ -2,8 +2,6 @@
 
 A Python-based word guessing game (similar to Hangman) with both console and graphical user interface versions. This project demonstrates Python programming fundamentals while providing an entertaining word game with multiple difficulty levels and interactive features.
 
-![Word Guessing Game Screenshot](https://via.placeholder.com/800x450.png?text=Word+Guessing+Game+Screenshot)
-
 ## Features
 
 ### Console Version
@@ -30,8 +28,8 @@ A Python-based word guessing game (similar to Hangman) with both console and gra
 ### Basic Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/KalyanRajSahu-Snap/word-guessing-game.git
-   cd word-guessing-game
+   git clone https://github.com/KalyanRajSahu-Snap/word-guess-game.git
+   cd word-guess-game
    ```
 
 2. No additional packages are required for basic functionality as the game uses Python's built-in libraries.
@@ -44,20 +42,9 @@ pip install colorama
 
 ## Usage
 
-### Running the Console Version
-```
-python word_game_console.py
-```
-
-Follow the on-screen prompts to:
-1. Enter your name
-2. Select difficulty level
-3. Guess letters to reveal the hidden word
-4. Play again or exit when the game ends
-
 ### Running the GUI Version
 ```
-python word_game_ui.py
+python wgg.py
 ```
 
 In the graphical interface:
@@ -90,9 +77,8 @@ You can customize the difficulty levels by:
 ## Project Structure
 
 ```
-word-guessing-game/
-├── word_game_console.py   # Terminal-based version with ASCII art
-├── word_game_ui.py        # Tkinter GUI version
+word-guess-game/
+├── wgg.py                 # Tkinter GUI version
 ├── README.md              # This file
 └── LICENSE                # License information
 ```
@@ -116,27 +102,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Inspired by the classic Hangman game
 - ASCII art adapted from traditional hangman visualizations
 - Special thanks to the Python community for their excellent documentation and libraries
-
-
-I've created a comprehensive README file for your Word Guessing Game project that you can use on GitHub. Here are the key sections included:
-
-1. **Project Introduction** - A brief description of what the game is and does
-2. **Features** - Separate listings for both console and GUI versions
-3. **Installation Instructions** - Prerequisites and step-by-step setup guide
-4. **Usage Instructions** - How to run both versions of the game
-5. **Customization Guide** - How to add new words or adjust difficulty
-6. **Project Structure** - Overview of the repository files
-7. **Contributing Guidelines** - Instructions for others who might want to contribute
-8. **License Information** - Standard MIT license placeholder
-9. **Acknowledgments** - Credits and inspirations
-
-The README includes:
-- Placeholder for a screenshot image
-- Code blocks with proper formatting for commands
-- Structured headings and subheadings for easy navigation
-- Clear instructions for both technical and non-technical users
-- Tips for customizing the game
-
-This README follows GitHub best practices and provides all the information someone would need to understand, install, and use your project. You can simply copy and paste this into a README.md file in your repository root, and replace the placeholder image link with an actual screenshot once you have one.
-
-Would you like me to modify any section or add additional information to the README?
